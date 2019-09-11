@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website môn học: Đăng nhập</title>
+    <link rel="shortcut icon" href="https://courses.uet.vnu.edu.vn/theme/image.php/clean/theme/1565747330/favicon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://courses.uet.vnu.edu.vn/"><img class="logo" src="../image/logo.png"/></a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="https://courses.uet.vnu.edu.vn/">Courses</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Vietnamese (vi)<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">English (en)</a></li>
+                    <li><a href="#">Vietnamese (vi)</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+ <div class="col-sm-6 col-sm-offset-3 fLogin">
+                <div class="col-sm-3 introduce">
+                    <div class="intro">
+                        <a href="#"><img class="logo1" src="../image/logoIntro.png"/></a>
+                        <p>Hệ thống website môn học của Trường Đại học Công nghệ, ĐHQGHN là nơi cung cấp tài nguyên học liệu, các khoá học trực tuyến, các hoạt động hỗ trợ giảng dạy và học tập cho giảng viên và sinh viên.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 box-login">
+                    <h3>Đăng nhập</h3>
+                    <form action="http://localhost:8888/moodle37/login/index.php" method="post">
+                        <input class="form-control" type="text" placeholder="Tài khoản" name="username">
+                        <input class="form-control" type="password" placeholder="Mật khẩu" name="password">
+                        <label><input type="checkbox"> Ghi nhớ</label>
+                        <input class="form-control login" type="submit" value="ĐĂNG NHẬP">
+                        <label><a id="resetPw" href="">Bạn quên tên đăng nhập hoặc mật khẩu?</a></label>
+                    </form>
+                </div>
+ </div>
+
+<footer>
+    <div class="col-sm-12 footer-border">
+        <div class="col-sm-6 footer">
+            <p>Trường Đại học Công nghệ, ĐHQGHN</p>
+            <div class="bl-moodle">
+                <a title="Moodle" href="http://moodle.org/"><img class="moodle" src="https://courses.uet.vnu.edu.vn/theme/image.php/clean/core/1565747330/moodlelogo" alt="Moodle logo"></a>
+                <a href="https://courses.uet.vnu.edu.vn/admin/tool/dataprivacy/summary.php">Data retention summary</a>
+                <a href="https://download.moodle.org/mobile?version=2018120302.1&amp;lang=vi&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Tải ứng dụng di động</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
